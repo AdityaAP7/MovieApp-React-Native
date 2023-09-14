@@ -1,3 +1,12 @@
+/1
+/2
+/3
+/4
+/5
+
+
+
+
 import { View, Text, Dimensions } from 'react-native'
 import React from 'react'
 import * as Progress from 'react-native-progress';
@@ -11,3 +20,4 @@ export default function Loading() {
     </View>
   )
 }
+
