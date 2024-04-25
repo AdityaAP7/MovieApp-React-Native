@@ -24,12 +24,6 @@ export default function MovieScreen() {
   const [isFavourite, toggleFavourite] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  useEffect(()=>{
-    setLoading(true);
-    getMovieDetials(item.id);
-    getMovieCredits(item.id);
-    getSimilarMovies(item.id);
-  },[item]);
 
   useEffect(()=>{
     setLoading(true);
